@@ -3,6 +3,7 @@ count = 10
 magic_exit_number = 0 
 
 while (count <= 10 && count >= 0) do
+  puts #{count}
   count -= 1
   break if count == magic_exit_number
   puts "Happy New Year!"
