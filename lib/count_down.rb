@@ -2,7 +2,7 @@
 count = 10
 magic_number = 0 
 while count <= 10 do
-  break if count == 0 
+  break if count == magic_number 
   puts "Happy New Year!"
   count -= 1 
 end
