@@ -1,5 +1,5 @@
 # Write your code here
-count = 10
+count = 0
 magic_number = 0 
 while count <= 10 do
   break if count == magic_number 
